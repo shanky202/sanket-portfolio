@@ -1,0 +1,177 @@
+@media screen and (max-width:1000px) {
+    /* Introduce */
+    #introduce {
+        width: 100%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        padding-left: 0;
+    }
+    .name-work h1 {
+        height: 60%;
+        font-size:2.3em;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .intro button{
+        margin-left:25%;
+        width: 50%;
+        font-size:20px;
+        height: 40px;
+        border-width: 3px;
+        
+    }
+
+    .intro a {
+        margin: auto;
+        width: 50%;
+    }
+
+    /* About */
+
+    #about {
+        height:100%;
+        width: 100%;
+        background: -webkit-linear-gradient(45deg, #02aab0, #00cdac 80%);
+        padding-top: 0%;
+    }
+    
+    .info h1, .proj h1, .cont-info h1 {
+        font-size: 2.5rem;
+        padding-bottom: 0.4%;
+    }
+
+    .info img {
+        width: 80%;
+        height: auto;
+        padding-bottom: 5%;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .my-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+    .my-info p {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        width: 90%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .my-info a button {
+        width: 100%;
+        height: 20%;
+        font-size: 20px;
+        font-weight: 600;
+        border: 2px solid white;
+        color: white;
+        background: -webkit-linear-gradient(45deg, #02aab0, #00cdac 80%);
+        text-align: center;
+    }
+
+    /* Project */
+
+    #project {
+        width: 100%;
+    }
+    .proj-info {
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 0;
+    }
+
+    .proj-name {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .proj-info h3 {
+        font-size: 2em;
+    }
+
+    .proj-info p {
+        font-size:1.5em;
+        line-height: 2rem;
+    }
+
+    .proj-info a img{
+        width: 80%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-left:10%;
+    }
+
+    .live-btn {
+        flex-direction: column;
+        height: 20%;
+        justify-content: space-evenly;
+        padding-left: 20%;
+    }
+
+    .proj-info button {
+        width: 80%;
+        height: auto;
+        border: 2px solid;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .proj-info button:last-child {
+        padding-top: 3%;
+    }
+
+    /* Contact */
+    #contact {
+        height: 40vh;
+        padding-top: 10vh;
+    }
+
+    .cont p {
+        font-size: 1.2rem;
+        padding-top: 5%;
+    }
+
+    .cont button {
+        width: fit-content;
+        height:auto;
+        font-size: 20px;
+        font-weight: 600;
+        border: 2px solid white;
+    }
+
+    .social-links {
+        padding-top: 5%;
+    }
+    
+    .social-links a {
+        font-size: 2rem;
+        width: 1rem;
+        height: 1rem;
+        padding: 1rem;
+    }
+
+    .container p {
+        font-size: 10px;
+    }
+
+}
